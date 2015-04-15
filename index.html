@@ -450,7 +450,7 @@
 
                                         lOr = 0;
                                         var leftOrRight= function(){
-                                            lOr = Math.floor(Math.random()*11);
+                                            lOr = Math.floor(Math.random()*10);
                                         }
                                         leftOrRight();
                                         
@@ -467,12 +467,14 @@
                                         }
                                         horizontal();
 
-                                        if(lOr > 5){
+
+
+                                        if (lOr > 4) {
                                             voo = left[horizVal]+"px";
                                             //console.log(lOr, topVal, voo);
                                             $("#prizeId").css({top: topVal, left: voo});
 
-                                        }else if(lOr<5){
+                                        } else{
                                             vee = right[horizVal]+"px";
                                             //console.log(lOr, topVal, vee);
                                             $("#prizeId").css({top: topVal, right: vee});
