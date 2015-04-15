@@ -5,6 +5,14 @@ canvas{
 
 }
 
+#parent{
+
+overflow-x: hidden;
+
+
+}
+
+
 #carnival{
   height: 608px;
 
@@ -672,7 +680,7 @@ margin: 0 auto;
 #rotatesky{
 
 position:absolute;
-width: 1500px;
+width: 100%;
 top: 100px;
 left: 10px;
 z-index: -2;
